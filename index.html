@@ -25,35 +25,18 @@
         }
         .demo-layout-transparent .mdl-layout__header,
         .demo-layout-transparent .mdl-layout__drawer-button {
-          /* This background is dark, so we set text to white. Use 87% black instead if
-             your background is light. */
+padding-top: 10%;
           color: white;
         }
-        #landingPage, #descriptionText {
-            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        }
-        .inactive {
+                .inactive {
             visibility: hidden;
         }
         #welcome {
-            padding-top: 22.5%;
+            padding-top: 10%;
             color: white;
             text-shadow: 1px 1px 3px #000000;
         }
-        #textBox {
-          position: absolute;
-          font-size: 16px;
-          font-weight: bolder;
-          top: 12.5%;
-          left: 2%;
-          height: 70%;
-          width: 95%;
-          background-color: #ffffff;
-          opacity: 0.8;
-          z-index: 1;
-          padding: 4px;
-          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        }
+       
     </style>
 
 </head>
@@ -69,24 +52,24 @@
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
-<div class="mdl-cell mdl-cell--4-col">
-      <nav class="mdl-navigation" id="loginMenu">
-            <button class="mdl-button mdl-js-button mdl-button--fab_24dp mdl-js-ripple-effect mdl-button--colored" onclick="javascript:document.location='http://timetravelstory.me/intro.html'">
-                Login
+            <div class="mdl-cell mdl-cell--8-col">
+            <nav class="mdl-navigation" id="loginMenu">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-color--black" onclick="javascript:document.location='http://timetravelstory.me/intro.html'">
+                START THE JOURNEY THROUGH TIME
             </button>
           </nav>
-   </div>
-          
         </div>
+          
+    </div>
       </header>
       <main class="mdl-layout__content">
       </main>
     </div>
 
 
-    <!--<div id="welcome" style="text-align:center">
-        <span id="landingPage" style="font-size:70px; font-weight:bolder; color:black">Welcome to Nathan and Angela's Final Project!</span>
-    </div>-->
+    <div id="welcome" style="text-align:center">
+        <span id="landingPage" style="font-size:50px; font-weight:bolder; color:white">Welcome to Nathan and Angela's Final Project!</span>
+    </div>
 
     <textarea id="textBox" class="inactive" readOnly></textarea>
 
